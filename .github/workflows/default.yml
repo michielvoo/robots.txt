@@ -15,3 +15,9 @@ jobs:
       - name: Build
         run: ./Build.ps1
         shell: pwsh
+
+      - name: Publish
+        run: ./Publish.ps1
+        shell: pwsh
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
