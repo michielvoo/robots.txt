@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D449CA68-7D9C-4EF2-BDFF-81B920F42FD1}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+		Readme.md = Readme.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotsTxt", "RobotsTxt\RobotsTxt.csproj", "{EFEC0585-070B-441C-82F5-C2337503B1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotsTxt.Tests", "RobotsTxt.Tests\RobotsTxt.Tests.csproj", "{948D7CCC-2865-4E2F-BE0B-89F779F60C3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{010D05DA-B552-4507-98CA-EE3D0CB5AD94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{CEA88262-570A-4C1F-8925-439A575F7DC8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\default.yml = .github\workflows\default.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFEC0585-070B-441C-82F5-C2337503B1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEC0585-070B-441C-82F5-C2337503B1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEC0585-070B-441C-82F5-C2337503B1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEC0585-070B-441C-82F5-C2337503B1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948D7CCC-2865-4E2F-BE0B-89F779F60C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948D7CCC-2865-4E2F-BE0B-89F779F60C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948D7CCC-2865-4E2F-BE0B-89F779F60C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948D7CCC-2865-4E2F-BE0B-89F779F60C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{010D05DA-B552-4507-98CA-EE3D0CB5AD94} = {D449CA68-7D9C-4EF2-BDFF-81B920F42FD1}
+		{CEA88262-570A-4C1F-8925-439A575F7DC8} = {010D05DA-B552-4507-98CA-EE3D0CB5AD94}
+	EndGlobalSection
+EndGlobal
