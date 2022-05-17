@@ -16,6 +16,10 @@ jobs:
         run: ./Build.ps1
         shell: pwsh
 
+      - name: Build
+        run: ./Test.ps1
+        shell: pwsh
+
       - name: Publish
         run: ./Publish.ps1
         shell: pwsh
