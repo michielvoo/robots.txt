@@ -16,7 +16,7 @@ jobs:
         run: ./Build.ps1
         shell: pwsh
 
-      - name: Build
+      - name: Test
         run: ./Test.ps1
         shell: pwsh
 
