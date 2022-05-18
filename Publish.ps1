@@ -5,5 +5,5 @@ Register-PSRepository `
 
 Publish-Module `
     -NuGetApiKey $Env:NUGET_API_KEY `
-    -Path ./ `
+    -Path ./robots.txt/ `
     -Repository MyGet

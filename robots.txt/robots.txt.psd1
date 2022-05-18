@@ -13,6 +13,6 @@
             Tags = @()
         }
     }
-    RootModule = "./RobotsTxt/bin/Release/net6.0/robots.txt.dll"
+    RootModule = "../RobotsTxt/bin/Release/net6.0/robots.txt.dll"
 }
 
